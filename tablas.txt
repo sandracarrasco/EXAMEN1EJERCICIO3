@@ -1,0 +1,20 @@
+//sql server
+CREATE TABLE fechas(
+    id bigint identity(1,1) primary key,
+    fecha varchar(20),
+    hora varchar(20)
+);
+
+insert into fechas(fecha,hora)values('fecha','hora');
+
+select * from fechas;
+
+// mysql
+create table fecha(
+
+id int autoincrement,
+fecha date,
+hora time
+
+
+)
